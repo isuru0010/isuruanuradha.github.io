@@ -531,6 +531,40 @@ footer{
         --h2-font:2rem;
     }
 }
-@media (max-width: 370px){
-    
+@media (max-width: 375px){
+    :root{
+        --h1-font:20px;
+        --h2-font:15px;
+    }
+    .h-btn{
+        display: inline-block;
+        padding: 8px 23px;
+        background: transparent;
+        color: var(--main-color);
+        border: 2px solid var(--main-color);
+        border-radius: 8px;
+        font-size: 12px;
+        font-weight: 400;
+        transition: all .50s ease;}
+   .about-img img{
+    height: 350px;
+   }
+   .send-btn{
+    width: fit-content;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-right:125px;
+    }
+    .logo{
+        font-size: 22px;
+
+    }
+    .logo span{
+        font-size: 23px;
+    }
+    .btn{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
 }
