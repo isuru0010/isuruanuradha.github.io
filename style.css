@@ -531,3 +531,6 @@ footer{
         --h2-font:2rem;
     }
 }
+@media (max-width: 370px){
+    
+}
