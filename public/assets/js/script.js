@@ -1,11 +1,15 @@
 
+var lastScrollTop = 0;
+nav=document.getElementById(navbar);
 window.addEventListener ("scroll", function(){
-    var header = document.querySelector("header");
-    header.classList.toggle ("sticky", window. scrollY > 0);
+    var header= document.querySelector("header");
+    header.classList.toggle ("sticky", window. scrollYOffset ||  document. documentElement. scrollTOP) {
+        I
+    }
 });
 
-let menu= document.querySelector('#menu-icon');
-let navlist = document.querySelector('.navlist');
+let menu= document.querySelector('.navbar-toggler');
+let navlist = document.querySelector('.navbar-nav');
 menu.onclick=()=>{
     menu.classList.toggle('bx-x');
     navlist.classList.toggle('active');

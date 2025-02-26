@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IA</title>
-    <link rel="stylesheet" href="/public/assts/css/style.css">
+    <link rel="stylesheet" href="/public/assets/css/style.css">
     <!--boostrap-->
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!--box icons-->
@@ -26,30 +26,28 @@
 </head>
 <body>
     <!--header-->
-    <header>
-        <a href="#" class="logo">Isuru <span>Anuradha.</span></a>
-
-        <div class="bx bx-menu" id="menu-icon"></div>
-
-        <ul class="navlist">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-
-        <div class="top-btn">
-            <a href="#contact" class="h-btn">Contact Me</a>
-        </div>
-    </header>
+    
+        <nav class="navbar navbar-expand container-fluid" id="#navbar">
+            <a href="#" class="logo">Isuru <span>Anuradha.</span></a>
+            <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="navbar-nav navbar-nav-scroll">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link"  href="#contact">Contact</a></li>
+            </ul>    
+        </nav>
+    
     <!---main section--->
-    <section class="hero" id="home">
+    <section class="container-fluid-1" id="home">
        
-        <div class="main-content" data-aos="fade-in">
+        <div class="container-1" data-aos="fade-in">
             <h4>Hi, There!</h4>
             <h1>I'm <span>Isuru Anuradha</span></h1>
-            <p>A Developer, UI Designer and freelancer. I am open to work at any time. Contact me </p>
+            <p class="lead">A Developer, UI Designer and freelancer. I am open to work at any time. Contact me </p>
             <div class="social">
                 <a href="#"><i class="ri-facebook-fill"></i></a>
                 <a href="#"><i class="ri-instagram-fill"></i></a>
@@ -66,11 +64,11 @@
     </section>
     <!----about --->
     <section class="about" id="about">
-        <div class="about-img" data-aos="zoom-in-down">
-            <img  src="./my1.png"/>
+        <div class="container-md-1" data-aos="zoom-in-down">
+            <img class="img-thumbnail" src="/public/assets/my1.png"/>
         </div>
         <div class="about-text" data-aos="zoom-in-up">
-            <h2>I am product <span>Designer</span><br>
+            <h2 class="h2">I am product <span>Designer</span><br>
                  & Web Developer</h2>
                  <div class="exp-area">
                     <p class="exp">
@@ -102,32 +100,32 @@
         </div>
     </section>
     <!--Service-->
-    <section class="services" id="services">
+    <section class="container-2" id="services">
         <div class="center-text" data-aos="fade-down">
             <h2>My <span>Services</span></h2>
         </div>
-        <div class="services-content" data-aos="zoom-in-up">
-            <div class="box">
-                <img src="./figma.png">
-                <h3>Ui Ux Design</h3>
+        <div class="container-3" data-aos="zoom-in-up">
+            <div class="container-sm-1">
+                <img src="/public/assets/figma.png">
+                <h3 class="h3">Ui Ux Design</h3>
                 <p>I will develop stunning Uis with modern techniques</p>
                 <a href="#">
                     Download now
                     <i class="ri-arrow-right-line"></i>
                 </a>
             </div>
-            <div class="box">
-                <img src="./vscode.png">
-                <h3>Web  Development</h3>
+            <div class="container-sm-1">
+                <img src="/public/assets/vscode.png">
+                <h3 class="h3">Web  Development</h3>
                 <p>I have 1+ year experience of web application development</p>
                 <a href="#">
                     Download now
                     <i class="ri-arrow-right-line"></i>
                 </a>
             </div>
-            <div class="box">
-                <img src="android.png">
-                <h3>Android Development</h3>
+            <div class="container-sm-1">
+                <img src="/public/assets/android.png">
+                <h3 class="h3">Android Development</h3>
                 <p>I have 1+ year experience of Android Mobile Application Development</p>
                 <a href="#">
                     Download now
@@ -135,16 +133,18 @@
                 </a>
             </div>
         </div>
+    </<section>
+        
     </section>
    
     <!--portfolio-->
-    <section class="portfolio" id="portfolio">
+    <section class="container-4" id="portfolio">
         <div class="center-text" data-aos="fade-down">
             <h2>My <span>Portfolio</span></h2>
         </div>
         <div class="portfolio-content" data-aos="zoom-in-up">
             <div class="row">
-                <img src=".//portfolio.png">
+                <img src="/public/assets/portfolio.png">
                 <div class="main-row">
                     <div class="row-text">
                         <h5>UI Design</h5>
@@ -156,7 +156,7 @@
                 <h4>UI Design for Sri Lankan  Police</h4>
             </div>
             <div class="row">
-                <img src="./portfolio.png">
+                <img src="/public/assets/Frame 1.png">
                 <div class="main-row">
                     <div class="row-text">
                         <h5>UI Design</h5>
@@ -165,13 +165,13 @@
                         <i class="ri-pages-line"></i>
                     </div>
                 </div>
-                <h4>UI Design for Sri Lankan Police</h4>
+                <h4>UI Design for Nike</h4>
             </div>
     
         </div>
     </section>
     <!--contact-->
-    <section class="contact" id="contact">
+    <div class="contact" id="contact">
         <div class="center-text" data-aos="fade-down">
             <h2>Contact<span>Me</span></h2>
         </div>
@@ -183,7 +183,7 @@
                 <input type="submit" name="" value="Send Message" class="send-btn">
             </form>
         </div>
-    </section>
+    </div>
     <div class="footer">
        <div class="copyright">
         <p>2023 Isuru Anuradha, All Right Reserved.</p>
@@ -193,7 +193,7 @@
        </a>
     </div>
     <!--js link-->
-    <script src="../My portfolio/script.js">
+    <script src="/public/assets/js/script.js">
     </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
